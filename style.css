@@ -1,0 +1,212 @@
+@import url('https://googleapis.com');
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    color: white
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 36px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(41, 43, 51);
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    width: 1150px;
+}
+
+.logo {
+    margin-left: 64px;
+}
+
+.logo > h1 {
+    color: white;
+}
+
+.hero {
+    width: 100%;
+    padding: 36px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 16px;
+    gap: 32px
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.about > h2, .about > p {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.buttons > button {
+    padding: 6px 20px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.1);
+    border: 2px solid rgba(255,255,255, 0.5);
+    border-radius: 10px;
+}
+
+.buttons > button:hover {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.buttons > button:active {
+    background-color: rgba(0, 0, 255, 1);
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.title {
+    display: flex;
+    font-size: 32px;
+    margin: 26px;
+    margin-bottom: 0;
+}
+
+.track-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 0px;
+    gap: 32px;
+    margin-bottom: 64px;;
+}
+
+img {
+    display: block;
+}
+
+.track {
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    background-color: #c4c5c5;
+    padding: 64px;
+    width: 100%;
+    margin-bottom: 36px;
+    font-style: italic;
+}
+
+.ref {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    font-size: smaller;
+    width: 700px;
+}
+
+.ref > p {
+    font-weight: 900;
+}
+
+.text-container {
+    width: 700px;
+}
+
+.call-container {
+    background-color: rgb(21, 159, 169);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 10px 10px 1px rgb(86, 86, 125);
+    margin-bottom: 36px;
+    padding: 36px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action > h4, .call-to-action > p{
+    margin: 0;
+    padding: 3px;
+    color: white;
+}
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 36px;
+}
+
+.button-container > button {
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white
+}
+
+.button-container > button:hover {
+     box-shadow: 0 0 3px 0.5px blue inset ;
+}
+
+.button-container > button:active {
+    background-color: rgba(255,255,255, 0.5);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    color: white;
+}
+
