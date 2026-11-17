@@ -35,6 +35,51 @@ ul {
     justify-content: center;
     align-items: center;
     margin-right: 36px;
+    font-size: 16px;
+}
+
+.dropdown-list {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-list > button {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+.dropdown-list button { 
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-list a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown-list .content {
+    display: none;
+    position: relative;
+    background-color:   hsl(0, 0%,80%);
+    min-width: 100px;
+    box-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.8);
+}
+
+.dropdown-list:hover .content {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+
+.dropdown-list:hover button {
+    /* background-color: hsl(0, 0%,70%); */
+}
+
+.dropdown-list a:hover {
+    background-color: hsl(0, 0%,90%);
 }
 
 header {
